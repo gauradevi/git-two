@@ -1,5 +1,6 @@
 #include <iostream>  
-using namespace std;  
+using namespace std;
+  
 int main()  
 {  
 	  char *names[5] = {"john",  
@@ -9,6 +10,7 @@ int main()
 	                    "Ronan"};  
 	for(int i=0;i<5;i++)  
 	    {  
+	        //print the names on consule
 	        std::cout << names[i] << std::endl;  
 	    }  
 	    return 0;  
