@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    float arr[5];
+    float arr[6];
     
    // Insert data using pointer notation
     cout << "Enter 5 numbers: ";
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 6; ++i) {
 
         // store input number in arr[i]
         cin >> *(arr + i) ;
@@ -15,7 +15,8 @@ int main() {
 
     // Display data using pointer notation
     cout << "Displaying data: " << endl;
-    for (int i = 0; i < 5; ++i) {
+    
+    for (int i = 0; i < 6; ++i) {
 
         // display value of arr[i]
         cout << *(arr + i) << endl ;
